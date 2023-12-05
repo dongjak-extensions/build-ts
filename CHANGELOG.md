@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dongjak-extensions/vite-build-helper/compare/v1.0.1...v1.0.2) (2023-12-05)
+
+
+### Bug Fixes
+
+* 11 ([711722e](https://github.com/dongjak-extensions/vite-build-helper/commit/711722e88d079a5556be0a135bdcee5574204db9))
+
 ## [1.0.1](https://github.com/dongjak-extensions/vite-build-helper/compare/v1.0.0...v1.0.1) (2023-12-05)
 
 
