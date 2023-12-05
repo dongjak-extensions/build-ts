@@ -1,13 +1,13 @@
 {
-  "name": "build-ts",
+  "name": "vite-build-helper",
   "version": "1.0.0",
   "description": "ts库项目模板",
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/dongjak-extensions/build-ts",
+  "repository": "https://github.com/dongjak-extensions/vite-build-helper",
   "scripts": {
-    "build": "rimraf dist && dts-bundle-generator -o dist/build-ts.d.ts index.ts  && vite build",
+    "build": "rimraf dist && dts-bundle-generator -o dist/vite-build-helper.d.ts index.ts  && vite build",
     "semantic-release": "semantic-release"
   },
   "keywords": [],
@@ -32,12 +32,12 @@
   "files": [
     "dist"
   ],
-  "typings": "dist/build-ts.d.ts",
-  "module": "dist/build-ts.es.js",
+  "typings": "dist/vite-build-helper.d.ts",
+  "module": "dist/vite-build-helper.es.js",
   "exports": {
     ".": {
-      "types": "./dist/build-ts.d.ts",
-      "import": "./dist/build-ts.es.js"
+      "types": "./dist/vite-build-helper.d.ts",
+      "import": "./dist/vite-build-helper.es.js"
     }
   }
 }
