@@ -1,6 +1,6 @@
 {
   "name": "@dongjak-extensions/vite-build-helper",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "ts库项目模板",
   "publishConfig": {
     "access": "public"
@@ -11,7 +11,6 @@
     "semantic-release": "semantic-release"
   },
   "keywords": [],
-
   "author": "dongjak-extensions",
   "license": "MIT",
   "peerDependencies": {
@@ -31,12 +30,10 @@
     "rimraf": "^5.0.1",
     "semantic-release": "^22.0.0",
     "typescript": "^5.3.2"
-
   },
   "files": [
     "dist"
   ],
-
   "main": "./dist/vite-build-helper.cjs.js",
   "module": "./dist/vite-build-helper.es.js",
   "types": "./dist/vite-build-helper.d.ts",
