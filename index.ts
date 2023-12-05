@@ -1,3 +1,3 @@
 
-export * from './src/Test'
-export * from './src/TestB'
+export * from './src/NodeProjectUtil'
+export * from './src/PropertiesUtil'
