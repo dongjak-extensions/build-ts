@@ -11,9 +11,13 @@
     "semantic-release": "semantic-release"
   },
   "keywords": [],
-  "type": "module",
+
   "author": "dongjak-extensions",
   "license": "MIT",
+  "peerDependencies": {
+    "vite": "^5.0.4",
+    "path": "^0.12.7"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^10.0.4",
@@ -26,18 +30,20 @@
     "handlebars": "^4.7.8",
     "rimraf": "^5.0.1",
     "semantic-release": "^22.0.0",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.4"
+    "typescript": "^5.3.2"
+
   },
   "files": [
     "dist"
   ],
-  "typings": "dist/vite-build-helper.d.ts",
-  "module": "dist/vite-build-helper.es.js",
+
+  "main": "./dist/vite-build-helper.cjs.js",
+  "module": "./dist/vite-build-helper.es.js",
+  "types": "./dist/vite-build-helper.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/vite-build-helper.d.ts",
-      "import": "./dist/vite-build-helper.es.js"
+      "import": "./dist/vite-build-helper.es.js",
+      "require": "./dist/vite-build-helper.cjs.js"
     }
   }
 }
