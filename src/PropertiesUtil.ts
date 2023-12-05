@@ -1,4 +1,4 @@
-import { loadEnv} from "vite";
+import {loadEnv} from "vite";
 
 export class PropertiesUtil {
 
@@ -12,7 +12,7 @@ export interface Properties {
 
 }
 
-export interface VueWebProjectProperties{
+export interface VueWebProjectProperties extends Properties {
 
     /** 项目基本地址 */
     readonly VITE_BASE_URL: string;
